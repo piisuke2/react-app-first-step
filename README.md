@@ -2,7 +2,7 @@
 Reactでスタンドアロンアプリを作ってみる練習です。  
 Webアプリで十分ですが、試しにElectronでも動くようにしています。
 
-[Demo](./demo/index.html)
+[Demo](https://piisuke2.github.io/react-app-first-step/demo/)
 
 ## 環境
 - Windows7
