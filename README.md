@@ -33,3 +33,6 @@ Atom
 - linter-eslint
 - platformio-ide-terminal
 - japanese-menu
+
+### cache/electron
+本家のelectronダウンロードが遅すぎるので、cacheのzipを使ってパッケージ化しています。
