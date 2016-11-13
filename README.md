@@ -1,6 +1,8 @@
 # Reactアプリ はじめの一歩
 Reactでスタンドアロンアプリを作ってみる練習です。  
-Webアプリで十分だけど、試しにElectronでも動くようにいます。
+Webアプリで十分ですが、試しにElectronでも動くようにしています。
+
+[Demo](./demo/index.html)
 
 ## 環境
 - Windows7
@@ -13,9 +15,12 @@ Webアプリで十分だけど、試しにElectronでも動くようにいます
 
 ## Webアプリとして配布
 	npm run build
+	buildディレクトリを配布
 
 ## Windowsアプリとして配布
+	npm run build
 	npm run build:win32
+	react-app-first-step-win32-x64ディレクトリを配布
 
 ## Memo
 ### 環境構築
@@ -29,6 +34,13 @@ Webアプリで十分だけど、試しにElectronでも動くようにいます
 	npm i -S react-data-grid
 	npm i -D electron-packager
 
+### ファイル構成
+	cache   electronの実行ファイル
+	demo    デモ画面
+	public  create-react-appで作成された
+	src     create-react-appで作成された
+	main.js electronのエントリポイント
+
 ### インストールしたもの
 Atom
 - linter-eslint
@@ -37,3 +49,6 @@ Atom
 
 ### cache/electron
 本家のelectronダウンロードが遅すぎるので、cacheのzipを使ってパッケージ化しています。
+
+### Reactのバージョン
+react-data-gridがreact v15に対応してなかったので、バージョンを落としました。
