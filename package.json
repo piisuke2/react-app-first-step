@@ -1,0 +1,35 @@
+{
+  "name": "react-app-first-step",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": ".",
+  "main": "main.js",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "electron-packager": "^8.2.0",
+    "eslint": "^3.8.1",
+    "eslint-config-react-app": "^0.3.0",
+    "eslint-plugin-flowtype": "^2.21.0",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1",
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "react": "^0.14.6",
+    "react-bootstrap": "^0.30.6",
+    "react-data-grid": "^1.0.59",
+    "react-dom": "^0.14.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "build:win32": "electron-packager . react-app-first-step --platform=win32 --arch=x64 --version=1.4.6 --download.cache=./cache",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
