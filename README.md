@@ -1,5 +1,6 @@
 # Reactアプリ はじめの一歩
-Reactでスタンドアロンアプリを作ってみる練習です。
+Reactでスタンドアロンアプリを作ってみる練習です。  
+Webアプリで十分だけど、試しにElectronでも動くようにいます。
 
 ## 環境
 - Windows7
@@ -7,7 +8,7 @@ Reactでスタンドアロンアプリを作ってみる練習です。
 - npm 3.10.8
 
 ## 起動方法
-	npm install
+	npm install --production=false
 	npm start
 
 ## Webアプリとして配布
